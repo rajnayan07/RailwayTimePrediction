@@ -1,0 +1,123 @@
+
+[Problem Statement]
+        ↓
+[SRS - Software Requirements Specification]
+        ↓
+[ER Diagram - Entity Relationship Diagram]
+        ↓
+[Data Flow Diagram (DFD)]
+        ↓
+[Use Case Diagram]
+        ↓
+[Sequence Diagram]
+        ↓
+[Collaboration Diagram]
+        ↓
+[Activity Diagram]
+
+
+
+📝 Brief Description of Each Step:
+
+Problem Statement: Define what the system is solving, objectives, and high-level goals.
+
+SRS: A structured document detailing functional and non-functional requirements.
+
+ER Diagram: Design of the database schema showing entities, attributes, and relationships.
+
+DFD: Represents the flow of data through the system (typically Level 0, 1, 2 etc.).
+
+Use Case Diagram: Shows system functionality from the user's perspective.
+
+Sequence Diagram: Describes how objects interact over time to accomplish a function.
+
+Collaboration Diagram: Shows interactions between objects focusing on their relationships.
+
+Activity Diagram: Describes the workflow or business process in a step-by-step manner.
+
+
+
+✅ ER Diagram Rules (Quick Summary)
+
+Entities → Rectangles (nouns, e.g., Student).
+
+Attributes → Ovals (properties of entities).
+
+Simple, Composite, Derived, Multivalued
+
+Relationships → Diamonds (verbs, e.g., enrolls in).
+
+
+
+✅ Data Flow Diagram (DFD) Rules – Quick Summary
+
+1. Four Main Components
+Process → Rounded rectangles/circles (e.g., Validate Login)
+
+Data Flow → Arrows showing movement of data
+
+Data Store → Open-ended rectangles (e.g., User DB)
+
+External Entity → Squares (e.g., Customer, Admin)
+
+
+
+✅ Use Case Diagram Rules – Quick Summary
+
+1. Main Elements
+Actors → Stick figures (users or other systems interacting with the system).
+
+Use Cases → Ovals (actions/functions the system performs).
+
+System Boundary → Rectangle enclosing all use cases.
+
+Relationships:
+
+Association → Line connecting actor ↔ use case.
+
+Include → Dashed arrow labeled <<include>> (reusable common steps).
+
+Extend → Dashed arrow labeled <<extend>> (optional or conditional actions).
+
+Generalization → Solid arrow with hollow triangle (actor or use case inheritance).
+
+
+
+✅ Sequence Diagram Rules – Quick Summary
+
+1. Main Elements
+Objects/Actors → Rectangles at the top (with lifelines going down).
+
+Lifelines → Dashed vertical lines showing the life of the object over time.
+
+Messages → Arrows between lifelines (representing interactions).
+
+Activation Bars → Thin rectangles on lifelines showing when an object is active.
+
+
+✅ Collaboration Diagram Rules – Quick Summary
+
+1. Main Elements
+Objects/Actors → Boxes with object names (e.g., :Customer)
+
+Links → Lines connecting objects (represent relationships/associations)
+
+Messages → Numbered arrows along the links showing message flow and order
+
+
+✅ Activity Diagram Rules – Quick Summary
+
+1. Main Elements
+Activities → Rounded rectangles (represent tasks or actions).
+
+Transitions → Arrows showing the flow from one activity to another.
+
+Start Node → Solid circle (indicates the beginning of the process).
+
+End Node → Solid circle with a border (indicates the end of the process).
+
+Decision Node → Diamond shape (used to show branching based on conditions).
+
+Fork/Join Node → Horizontal or vertical bars (for parallel actions).
+
+Swimlanes → Vertical or horizontal divisions to group activities by actor or component.
