@@ -1,0 +1,44 @@
+set wise questions:
+
+each set include 2 or 3 questions
+
+Write problem Statement.
+Scope and purpose.
+Functional and non functional requirements
+Frontend and backend description of your project.
+Interfaces
+Database description.
+How actors interacte with the system.
+ER Diagram of your project.
+Draw level 0 and level 1 DFD diagram of your project.
+Dfd level 2
+Use case diagram.
+Explain the components of the the use case diagram.
+Draw any sequence diagram from your project.
+Draw any collaboration diagram from your project
+What is Collaboration Diagram?
+Write the difference between  sequence diagram and collaboration diagram(4 points)
+Activity diagram.
+
+eg.
+set-1
+1. Level zero dfd
+2. Any two sequence diagram 
+3. Explain those two sequence diagram's messages with example
+
+set-2
+1.Activity diagram.
+2.Problem statement.
+
+set-3
+1.Frontend and backend description of your project.
+2.Draw level 0 and level 1 DFD diagram of your project.
+
+
+
+
+
+
+
+
+
